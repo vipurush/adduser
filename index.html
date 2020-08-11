@@ -25,10 +25,10 @@
       </div>
       <div class="password-details">
         <label class="passwordlabel" for="password">Password</label> <span class="required">*</span>
-        <input class="passwordtbox" type="password" name="Password" placeholder="Enter Password" minlength="5" maxlength="8" required>
+        <input class="passwordtbox" type="password" name="Password" placeholder="Enter Password" minlength="5" maxlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$" required>
         <label class="confirmpwdlabel">Confirm Password</label> <span class="required">*</span>
-        <input class="confirmpwdtbox" type="password" name="confirmpwd" placeholder="Enter Confirm Password" minlength="5" maxlength="8" required><br>
-        <p><em>**Password should be 10-20 characters in length consisting of upper case letters, lower case letters, numbers, and any of one of !@#$%& characters without spaces. **</em></p>
+        <input class="confirmpwdtbox" type="password" name="confirmpwd" placeholder="Enter Confirm Password" minlength="5" maxlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$"required><br>
+        <p><em>**Password should be 8-15 characters in length containing at least one lowercase letter, one uppercase letter, one numeric digit, and one special character**</em></p>
       </div>
       <div class="roles-lang">
         <label class="roleslabel" for="roles">Roles</label><span class="required">*</span>
