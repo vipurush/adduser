@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Add User</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="Userdetails">
+    <form action="mailto:athish_vinod01@yahoo.co.in,athishvinod30@gmail.com" method="post" enctype="text/plain">
+      <h1>Add User</h1>
+      <div class="user-name">
+        <label class="fnamelabel" for="firstname">First Name</label> <span class="required">*</span>
+        <input class="fnametbox" type="text" name="firstname" placeholder="Enter First Name" minlength="2" maxlength="20" required>
+        <label class="lnamelabel" for="lastname">Last Name</label> <span class="required">*</span>
+        <input class="lnametbox" type="text" name="lastname" placeholder="Enter Last Name" minlength="2" maxlength="20" required>
+      </div>
+      <div class="contact-details">
+        <label class="emaillabel" for="email">Email Address</label> <span class="required">*</span>
+        <input class="emailtbox" type="email" name="email" placeholder="Enter Email Address" required>
+        <label class="phonelabel" for="phone">Phone</label><span class="required">*</span>
+        <input class="phonetbox" type="tel" name="phone" placeholder="Enter Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      </div>
+      <div class="password-details">
+        <label class="passwordlabel" for="password">Password</label> <span class="required">*</span>
+        <input class="passwordtbox" type="password" name="Password" placeholder="Enter Password" minlength="5" maxlength="8" required>
+        <label class="confirmpwdlabel">Confirm Password</label> <span class="required">*</span>
+        <input class="confirmpwdtbox" type="password" name="confirmpwd" placeholder="Enter Confirm Password" minlength="5" maxlength="8" required><br>
+        <p><em>**Password should be 10-20 characters in length consisting of upper case letters, lower case letters, numbers, and any of one of !@#$%& characters without spaces. **</em></p>
+      </div>
+      <div class="roles-lang">
+        <label class="roleslabel" for="roles">Roles</label><span class="required">*</span>
+        <select class="rolesdrop" name="roles" required>
+          <option value="" disabled selected>Select a role</option>
+          <option value="Admin">Admin</option>
+          <option value="Investigator">Investigator</option>
+        </select>
+        <label class="languagelabel" for="roles">Language</label><span class="required">*</span>
+        <select class="langdrop" name="languages" required>
+          <option value="" disabled selected>Select a language</option>
+          <option value="English">English</option>
+          <option value="Spanish">Spanish</option>
+          <option value="French">French</option>
+          <option value="German">German</option>
+          <option value="Portuguese">Portuguese</option>
+          <option value="Arabic">Arabic</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+      </div>
+      <div class="buttons">
+        <input class="submitbutton" type="submit" name="submit" value="Submit">
+        <input class="resetbutton" type="reset" name="reset" value="Reset" />
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+body{
+  margin: auto 0;
+  padding:0;
+   width:100%;
+}
+h1{
+  margin-top: 0;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+p{
+  font-size:15px;
+  color:red;
+}
+.required{
+  color: red;
+}
+.Userdetails{
+  background-color: #F8F8FF;
+  height: 650px;
+  width: 97%;
+  padding:0 20px;
+ position: relative;
+}
+.user-name{
+  margin-top:20px;
+  margin-left: 20px;
+  position: relative;
+  padding-top: 20px;
+}
+.contact-details{
+  margin-top:20px;
+  margin-left: 20px;
+  position: relative;
+}
+.password-details{
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+}
+.roles-lang{
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+}
+.buttons{
+  margin-top: 50px;
+  margin-left: 10px;
+  position: relative;
+}
+.fnamelabel{
+  font-size:15px;
+  font-weight:normal;
+  padding-left: 10px;
+}
+.fnametbox{
+  margin-left: 40px;
+  width: 150px;
+}
+.lnamelabel{
+  font-size:15px;
+  font-weight:normal;
+  margin-left: 40px;
+  padding-left: 10px;
+}
+.lnametbox{
+  margin-left: 60px;
+  width:150px;
+}
+.emaillabel{
+  font-size:15px;
+  font-weight:normal;
+  padding-left: 10px;
+}
+.emailtbox{
+  margin-left: 20px;
+  width: 150px;
+}
+.phonelabel{
+  font-size:15px;
+  font-weight:normal;
+  margin-left: 40px;
+  padding-left: 10px;
+}
+.phonetbox{
+  margin-left: 90px;
+  width:150px;
+}
+
+.passwordlabel{
+  font-size:15px;
+  font-weight:normal;
+  padding-left: 10px;
+}
+.passwordtbox{
+  margin-left: 51px;
+  width: 150px;
+}
+.confirmpwdlabel{
+  font-size:15px;
+  font-weight:normal;
+  margin-left: 40px;
+  padding-left: 10px;
+}
+.confirmpwdtbox{
+  margin-left: 11px;
+  width: 150px
+}
+.roleslabel{
+  font-size:15px;
+  font-weight:normal;
+  padding-left: 10px
+}
+.rolesdrop{
+  margin-left: 80px;
+  width: 150px;
+}
+.languagelabel{
+  font-size:15px;
+  font-weight:normal;
+  margin-left: 50px;
+  padding-left: 10px;
+}
+.langdrop{
+  margin-left: 65px;
+  width: 150px;
+}
+.submitbutton {
+	box-shadow:inset 0 0 3px 0 #378995;
+	background:linear-gradient(to bottom, #378995 5%, #378995 100%);
+	background-color:#378995;
+	border-radius:6px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:12px;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0 1px 3px #378995;
+  margin-left: 250px;
+	width:70px;
+}
+.submitbutton:hover {
+	background:linear-gradient(to bottom, #378995 5%, #378995 100%);
+	background-color:#378995;
+}
+.submitbutton:active {
+	position:relative;
+	top:1px;
+}
+.resetbutton {
+	box-shadow:inset 0 0 3px 0 #778899;
+	background:linear-gradient(to bottom, #778899 5%, #778899 100%);
+	background-color:#778899;
+	border-radius:6px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:12px;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0 1px 3px #778899;
+  margin-left: 20px;
+  width:70px;
+
+}
+.resetbutton:hover {
+	background:linear-gradient(to bottom, #778899 5%, #778899 100%);
+	background-color:#778899;
+}
+.resetbutton:active {
+	position:relative;
+	top:1px;
+}
